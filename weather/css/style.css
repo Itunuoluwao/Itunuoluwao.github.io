@@ -1,0 +1,41 @@
+body{ 
+    background-color:rgb(150, 146, 146);
+    margin: 0px !important;
+    overflow-x: hidden;
+}
+.weathercard{
+background-color: rgb(255, 255, 255);
+padding: 50px 10px;
+margin: 60px 60px;
+height: 400px;
+}
+.weather{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(161, 150, 150);
+
+}
+.weathericons{
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+
+}
+.fas{
+    padding: 20px 20px;
+    margin: 5px 2px;
+    font-size: 70px !important;
+}
+p{
+    font-size: 17px;
+   font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 204, 204);
+    text-align: center;
+    
+    
+}
+
