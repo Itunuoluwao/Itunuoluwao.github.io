@@ -22,25 +22,37 @@ body{
 .nobullet li {
     display: inline-block;
     margin: 12px 12px 22px 12px;
+    float: right;
 }
 .intro{
     width: 100%;
     height: 550px;
     background: url("../img/intro-bg.jpg") fixed;
     background-size: cover;
-    
 }
 .introword{
     margin: 10px;
+    background-color:  rgba(10, 10, 10, 0.801);
+    color: #fcfcfc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px
 }
 .introtext{
-    position: relative;
+    position: absolute;
     top: 50%; 
     left: 30%;
-    font-size: 40px;
-   
+    font-size: 25px;
+    padding: 15px;
 }
-
+.introbtn{
+    border-radius: 15px;
+    background-color: #faf9f9;
+    font-size: 15px;
+    color: #e45252;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .logob{
     width: 20%;
     display: inline-block;
@@ -49,15 +61,14 @@ body{
 
 .flex-container {
     display: flex;
-    background-color: rgb(233, 229, 229);
+    background-color: rgb(255, 255, 255);
     justify-content: center;
   }
   .flex-container > div {
-      background-color:rgb(233, 233, 233);
+      background-color:rgb(255, 255, 255);
          margin: 20px;
          width: 45%;
-         
-      background: rgb(248, 248, 248);
+  
   }
 
   .flex-container .img_div {
@@ -76,26 +87,33 @@ body{
       display: inline-block;
       justify-content: center;
       margin: 0px 0;
+     
+      
   }
   .product-section header {
-      background: rgb(233, 233, 233);
-      text-align: center
+      background: rgb(246, 246, 246);
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 5px;
+      font-size: 20px;
   }
   video{
       float: right;
       padding: 10px;
+      width: 35%;
   }
   .about{
       display: inline-block;
       width: 50%;
-      padding: 100px 30px;
+      padding: 70px 30px;
       font-size: 20px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      width: 45%;
   }
   .aboutbtn{
-      padding: 10px;
-      background-color: rgb(238, 46, 12);
-      border-radius: 30px;
+      padding: 5px;
+     background-color: #e45252;
+      border-radius: 15px;
       text-decoration: none;
       color: rgb(255, 255, 255);
       margin: 10%;
@@ -108,7 +126,7 @@ body{
   }
   .booking{
         display: inline-block;
-        width: 50%;
+        width: 40%;
         padding: 100px 30px;
     
   }
@@ -162,15 +180,16 @@ body{
     font-size: 20px;
   }
   .rewardbtn{
-      padding: 15px;
+      padding: 10px;
       background-color: rgb(216, 79, 79);
       border-radius: 20px;
+      color: rgb(252, 250, 250);
       margin-top: 30px;
       text-decoration: none;
       float: inherit;
   }
   .locate{
-      background-color: blue;
+      background-color: rgb(245, 239, 239);
       padding: 20px;
       display: inline-block;
       width: 100%;
@@ -206,7 +225,6 @@ body{
   .fa-facebook{
       background: rgb(78, 130, 241);
       color: white;
-      font-: 
       
   }
   .fa-instagram{
@@ -215,17 +233,21 @@ body{
   }
   .footer{
       width: 100%;
-      background-color:green;
+      background-color: #e45252;
       margin: 0px; 
       padding: 20px;
       text-align: center
   }
    a{
        text-decoration: none;
+       color: unset;
   }
   .menu{
     width:100%;
     display: inline-block;
+  }
+  .heading-menu{
+      font-size: 25px;
   }
   .menu-list{
       display: inline-block;
@@ -270,5 +292,65 @@ body{
     text-align: center;
     color: rgb(4, 4, 5);
     font-size: 25px;
+}
+.serviceword{
+    display: inline-block;
+    float: none;
+    width: 20%;
+    padding: 50px;
+    margin: 30px;
+   
+}
+.serviceword > img{
+    width: 100%;
+}
+.service{
+    text-align: center;
+    margin: 0px 0px;
+}
+@media screen and (max-width:600px) {
+    img{
+    max-width:100%;
+    height: auto;
+    display: block;}
+.socials{
+    display: block;
+    width:100%;
+    float: none;
+}
+body{ 
+    background-color:rgb(189, 8, 8) !important;
+    margin: 0px !important;
+    overflow-x: hidden;
+}
+.book {
+    float: none;
+    width: 40%;
+    padding: 30px;
+    display: block;
+}
+.booking{
+      display: inline-block;
+      width: 40%;
+      padding: 100px 30px;
+      display: block;
     }
-  
+    .rewardword{
+        width: 40%;
+        float: none;
+        padding: 20px;
+        margin-top: 5px;
+        font-size: 20px;
+        height: 50;
+      }
+ video{
+        float: left;
+        padding: 10px;
+        width: 35%;
+    }
+.aboutbtn{
+        font-size: 10px;
+        padding: 10px;
+       
+      
+}
